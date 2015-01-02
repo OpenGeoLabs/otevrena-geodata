@@ -55,7 +55,7 @@ copyright = u'2014, OpenGeoLabs'
 # built documents.
 #
 # The short X.Y version.
-version = '2.2.0'
+version = '2.2.1'
 # The full version, including alpha/beta/rc tags.
 # release = '2.0.0'
 
@@ -197,7 +197,7 @@ latex_elements = {
     'preamble': "".join((
         '\\usepackage{pifont}',
         '\DeclareUnicodeCharacter{2605}{\ding{72}}',
-        '\DeclareUnicodeCharacter{2611}{\ding{51}}',  
+        '\DeclareUnicodeCharacter{2611}{\ding{51}}',
         '\DeclareUnicodeCharacter{2612}{\ding{55}}',
         r'''\makeatletter
         \fancypagestyle{normal}{

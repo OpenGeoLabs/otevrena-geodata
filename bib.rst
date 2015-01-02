@@ -3,7 +3,7 @@
           Odkazy a literatura
           ===================
 
-.. [ref01]	Mráček, Jakub a kol.: *Jak otevírat data?*, Fond Otakara Motejla, http://www.otevrenadata.cz/ [cit. 2014-09-06]
+.. [ref01]	Mráček, Jakub a kol.: *Jak otevírat data?*, Fond Otakara Motejla, http://www.otevrenadata.cz/res/data/001/003498.pdf [cit. 2014-09-06]
 .. [ref02]	Fond Otakara Motejla: *První pražský GeoData Hackathon*, http://www.nasstat.cz/aktualni-deni/1-prazsky-geodata-hackathon/ [cit. 2014-09-06]
 .. [ref03]	GISMentors: *Výsledky pražského GeoData Hackathonu (13. - 15. 6. 2014 IPR Praha)*, http://www.gismentors.eu/geodatahackathon2014/ [cit. 2014-09-06]
 .. [ref04]	Otevřená společnost o.p.s.: *Mapa kriminality*, http://mapakriminality.cz/ [cit. 2014-09-06]
@@ -84,3 +84,4 @@
 .. [ref79]      Gerhard Gröger (editor) a kol.: *OGC City Geography Markup Language (CityGML) Encoding Standard*,  OGC 12-019, Verze 2.0.0, Open Geospatial Consoritum, Inc. 2012, http://www.opengeospatial.org/standards/citygml, [cit 2014-11-30]
 .. [ref80]	Kolektiv autorů: *GeoServer*, http://geoserver.org [cit. 2014-12-01]
 .. [ref81]	Kolektiv autorů: *GeoNetwork*, http://geonetwork-opensource.org [cit. 2014-12-01]
+.. [ref82]	Springmeyer, Dane a kol.: *Mapbox Vector Tile Specification*, https://github.com/mapbox/vector-tile-spec [cit. 2015-01-02]

@@ -70,6 +70,9 @@ standardními postupy (*fork*, *pull request*).
 |            |            |                               | zkratek, přeformátování         |
 |            |            |                               | struktury.                      |
 +------------+------------+-------------------------------+---------------------------------+
+| 2015-01-02 | 2.2.1      | Lucie Prunarová,              | Revize textu, doplnění zkratek. |
+|            |            | Jáchym Čepický                |                                 |
++------------+------------+-------------------------------+---------------------------------+
 
 .. raw:: latex
     
@@ -90,6 +93,9 @@ standardními postupy (*fork*, *pull request*).
 +------------+-----------------------------------------------------------------+
 | DBF        | dBase byl první masověji rozšířený systém řízení báze dat       |
 +------------+-----------------------------------------------------------------+
+| CAD        | Z angličtiny computer-aided design, česky počítačem podporované |
+|            | projektování                                                    |
++------------+-----------------------------------------------------------------+
 | CSV        | Comma-separated values (hodnoty oddělené čárkami) je jednoduchý |
 |            | souborový formát určený pro výměnu tabulkových dat.             |
 +------------+-----------------------------------------------------------------+
@@ -98,9 +104,22 @@ standardními postupy (*fork*, *pull request*).
 +------------+-----------------------------------------------------------------+
 | ČSN        | Chráněné označení českých technických norem                     |
 +------------+-----------------------------------------------------------------+
+| ČÚZK       | Český úřad zeměměřičský a katastrální                           |
++------------+-----------------------------------------------------------------+
 | EPSG       | European Petroleum Survey Group. Jedná se o široce využívanou   |
 |            | databázi zemských elipsoidů, geodetických dat, zeměpisných a    |
 |            | kartografických souřadnicových systémů, měrných jednotek, atd.  |
++------------+-----------------------------------------------------------------+
+| ETRS89     | Evropský terestrický referenční systém, závazný geodetický      |
+|            | referenční systém na celém území státu, definovaný technologiemi|
+|            | kosmické geodézie a konstantami, které jsou součástí programů   |
+|            | mezinárodních zpracovatelských center, souborem geocentrických  |
+|            | souřadnic vybraných bodů geodetických základů, jejichž          |
+|            | souřadnice byly vztaženy k epoše 1989.                          |
++------------+-----------------------------------------------------------------+
+| FES        | Filter Encoding Specification je standard OGC, který popisuje   |
+|            | na systému nezávislou syntaxi pro vyjádření výběru a třídění    |
+|            | potřebné při dotazování se na objekty datových sad.             |
 +------------+-----------------------------------------------------------------+
 | GeoTIFF    | Rastrový formát pro geografická data postavený na formátu TIFF  |
 +------------+-----------------------------------------------------------------+
@@ -116,6 +135,13 @@ standardními postupy (*fork*, *pull request*).
 |            | vektorová geografická data, OGC specifikace                     |
 +------------+-----------------------------------------------------------------+
 | GPS        | Global Positioning System, česky Globální polohovací systém     |
++------------+-----------------------------------------------------------------+
+| HTML       | HyperText Markup Language, je značkovací jazyk pro hypertext.   |
+|            | Je hlavním z jazyků pro vytváření stránek v systému World Wide  |
+|            | Web, který umožňuje publikaci dokumentů na Internetu.           |
++------------+-----------------------------------------------------------------+
+| HTTP       | Hypertext Transfer Protocol) je internetový protokol určený pro |
+|            | výměnu hypertextových dokumentů ve formátu HTML.                |
 +------------+-----------------------------------------------------------------+
 | INSPIRE    | INfrastructure for SPatial InfoRmation in Europe je iniciativou |
 |            | Evropské komise pro vybudování evropské                         |

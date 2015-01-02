@@ -270,18 +270,20 @@ zmíněnou informaci o vizualizaci jednotlivých prvků geodat. Ačkoliv byl v d
 cca 3 lety tento formát populární, dnes je často nahrazován formátem GeoJSON.
 
 JSON a jeho odvozené formáty
-""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""
 
-Populárním formátem se v poslední době stávají formáty odvozené z formátu JSON, především GeoJSON a TopoJSON. Firma
-MabBox se již také zabývá vlastním formátem pro
-geodata postaveným nad zápisem JSON.
-Tento formát má své uplatnění především mezi webovými technologiemi.
-Oproti formátům odvozených z XML (GML, KML) má kratší zápis, což  je výhodné při
-přenosech v prostředí Internetu. Stejně jako při využití formátů odvozených z
+Populárními formáty se v poslední době stávají formáty odvozené z formátu JSON,
+především GeoJSON a TopoJSON. Dalším odvozeným formátem od JSON je formát firma
+MabBox [ref82]_ používaným zejména pro předgenerované vektorové soubory uložené
+ve formě dlaždic pro rychlejší přenos dat.
+
+Formáty JSON mají své uplatnění především mezi webovými technologiemi.  Oproti
+formátům odvozených z XML (GML, KML) mají kratší zápis, což  je výhodné při
+přenosech v prostředí Internetu.  Stejně jako při využití formátů odvozených z
 XML, je i zde je možné zabezpečit správnost struktury dat to pomocí schémat.
 
-Formát JSON je velice přívětivý k netypovým programovacím jazykům, je
-srozumitelný prostým lidským okem. Souřadnicový systém zde není jak
+JSON je velice přívětivý k netypovým programovacím jazykům, je srozumitelný
+prostým lidským okem. Souřadnicový systém není v těchto formátech jak
 specifikovat, předpokládá se, že se jedná o WGS 84. Data lze libovolným způsobem
 zanořovat a větvit.
 
@@ -298,9 +300,9 @@ poloze od daného počátku a v celých číslech (ztrácí se přesnost). K ús
 datové velikosti vede také fakt, že např. hranice polygonů jsou uloženy pro dvě
 sousedící plochy pouze jednou (formát je tedy topologický).
 
-Formát TopoJSON je velice slibný, v budoucnu se očekává jeho rozšíření. V tuto chvíli naráží zejména na
-nedostatečnou podporu v softwarech. Není ani vhodný jako obecný formát
-pro výměnu dat mezi systémy. Formát byl navržen s ohledem na
+Formát TopoJSON je velice slibný, v budoucnu se očekává jeho rozšíření. V tuto
+chvíli naráží zejména na nedostatečnou podporu v softwarech. Není ani vhodný
+jako obecný formát pro výměnu dat mezi systémy. Formát byl navržen s ohledem na
 optimalizaci aplikací ve webovém prostředí a tam má taky své místo.
 
 Geodatabáze SpatialLite
@@ -502,7 +504,7 @@ OGC Web Feature Service
 Služba OGC WFS [ref21]_ slouží k distribuci vektorových dat. Standard WFS
 2.0.0 umožňuje také spouštět některé analytické operace přímo na serveru,
 jsou-li na něm podporovány. WFS dále podporuje filtrování požadovaných
-prvků geodat (vzhled jevů, features), není tak potřeba stahovat celou datovou
+prvků geodat (vzhled jevů, *features*), není tak potřeba stahovat celou datovou
 sadu. Pro větší objemy dat je možné použít možnost stránkování odpovědi, tj.
 nemusí být stahována všechna data najednou v jedné odpovědi. Pomocí WFS může
 server vrátit data v libovolném formátu, který podporují knihovny pracující na
@@ -575,37 +577,37 @@ Příklad formátu atom je uveden v :ref:`atom-priloha`.
 Služby GitHub
 -------------
 
-Služba GitHub [ref41]_ je webové rozhraní k systému pro správu verzí Git, který byl
-původně napsán za účelem správy a údržby zdrojového kódu jádra operačního
-systému GNU/Linux. Od  roku 2014 je možné do této služby nahrávat i geografická
-data v některých z ?podporovaných formátů GeoJSON a TopoJSON?. Tyto soubory jsou
-přímo vizualizovány v jednoduché mapové aplikaci. Podle různých údajů lze usoudit, že
-limit pro velikost vstupního souboru, má-li být zobrazen v mapové prohlížečce,
-je v současnosti cca 4.5 MB, záleží ale také na struktuře vstupního
-souboru  [ref42]_. U jednodušších struktur může být limit až 10 MB
-(maximální velikost souboru na serverech GitHub je cca 100 MB). Pokud je datový
-soubor příliš veliký, není zobrazen. Jeho praktickou dostupnost to
-ale nijak neovlivní.
+Služba GitHub [ref41]_ je webové rozhraní k systému pro správu verzí Git, který
+byl původně napsán za účelem správy a údržby zdrojového kódu jádra operačního
+systému GNU/Linux. Od roku 2014 je možné do této služby nahrávat i geografická
+data v některých z formátů GeoJSON a TopoJSON. GitHub soubory uložené v těchto
+formátech umí přímo vizualizovat. Podle různých údajů lze usoudit, že limit pro
+velikost vstupního souboru, má-li být zobrazen v mapové prohlížečce, je v
+současnosti cca 4.5 MB, záleží ale také na struktuře vstupního souboru
+[ref42]_. U jednodušších struktur může být limit až 10 MB (maximální velikost
+souboru na serverech GitHub je cca 100 MB). Pokud je datový soubor příliš
+veliký, není zobrazen. Jeho praktickou dostupnost to ale nijak neovlivní.
 
 Takto jednoduše publikovaná data lze stáhnout opět v jednom z podporovaných
 formátů. Výhoda tohoto přístupu je mimo jiné v tom, že poskytovateli dat zcela
 odpadá starost o IT infrastrukturu. O tu se stará třetí strana - v tomto případě
 GitHub. Uživatelé navíc  získají efektivní nástroj pro verzování dat v čase.
 Pokud by byla služba GitHub v budoucnu uzavřena anebo by se změnila výrazně její
-?obchodní politika?, nejednalo by se o tak zásadní problém. Systém Git je
+obchodní politika, nejednalo by se o tak zásadní problém. Systém Git je
 decentralizovaný, každý uživatel má u sebe lokální kopii celé datové sady včetně
 veškeré historie. Vzhledem k tomu, že je systém pro správu verzí Git vyvíjen
 jako Open Source, tak by bylo možné případný přechod na jinou formu distribuce
 ze služby GitHub realizovat bez větších problémů.
 
 Do prostředí GitHub lze nahrát i dlaždicovaná rastrová data a odkazovat se na ně
-formou zápisu identifikátoru URL podle standardu OGC TMS.
-Podle zkušeností uživatelů se jeví tato služba jako dostatečně rychlá. 
+formou zápisu identifikátoru URL podle standardu OGC TMS.  Podle zkušeností
+uživatelů se jeví tato služba jako dostatečně rychlá. 
 
-Se službou GitHub již experimentují některé menší obce a samosprávy (např. [ref43]_, [ref44]_), ale i větší města  (např. Chicago [ref57]_).
-Tento přístup k publikování geodat je vhodnější pro menší města bez vlastního IT
-oddělení. Nicméně některé koncepty tohoto přístupu (správa verzí, distribuce,
-náhled, atd.) jsou aplikovatelné i na tuto případovou studii.
+Se službou GitHub již experimentují některé menší obce a samosprávy (např.
+[ref43]_, [ref44]_), ale i větší města  (např. Chicago [ref57]_).  Tento přístup
+k publikování geodat je vhodnější pro menší města bez vlastního IT oddělení.
+Nicméně některé koncepty tohoto přístupu (správa verzí, distribuce, náhled,
+atd.) jsou aplikovatelné i na tuto případovou studii.
 
 .. _casove_rady:
 
@@ -631,7 +633,6 @@ je některá služba nebo formát vhodnější na jeden z typů časové složky
 ===============================
 Časové řady prohlížecích služeb
 ===============================
-
 
 Standard WMS nabízí možnost, jak definovat další dimenze pro poskytovaná
 data. Nejčastější formou použití je právě čas, ale může to být např. nadmořská
@@ -705,7 +706,7 @@ Git je systém na správu verzí, nejčastěji textových souborů, viz kapitola
 je měnil a jaké změny provedl. Případné konfliktní změny lze řešit poměrně
 komfortně, lze se “vracet v čase”, získat stav souboru k určité revizi nebo
 časovému okamžiku. Soubor s daty by měl být v Gitu uložen ideálně v textové
-podobě (GML, GeoJSON, …). Binární formáty lze technicky vzato spravovat v
+podobě (GML, GeoJSON, ...). Binární formáty lze technicky vzato spravovat v
 prostředí Git také, potom ale nelze využít specializované verzovací nástroje.
 
 Poskytování změnových souborů (RÚIAN best practice)
