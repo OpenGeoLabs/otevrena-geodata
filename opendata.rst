@@ -72,7 +72,7 @@ server (vyřizuje žádost a posílá klientovi odpověď). Výsledkem odpovědi
 například být i obrázek v patřičném souborovém formátu, jako je např. JPEG.
 
 Legislativní pravidla otevírání dat - INSPIRE
-------------------------------
+---------------------------------------------
 
 Kromě souvisejících zákonů a nařízení je pro otevírání geodat relevantní zejména
 evropská směrnice INSPIRE [ref26]_ ze dne 25. dubna 2007, která vstoupila v platnost
@@ -124,16 +124,16 @@ vhodných datových formátů:
 | ★★    | Vektorová data jsou uložena v uzavřeném proprietárním formátu, například DWG   |
 |       | firmy Autodesk                                                                 |
 +-------+--------------------------------------------------------------------------------+
-| ★★★   | Vektorová data jsou uložena ve formátu  SHPP který j e sice                  |
+| ★★★   | Vektorová data jsou uložena ve formátu  SHPP který j e sice                    |
 |       | proprietární, ale je otevřený; nebo jako GML, což je otevřený standard a       |
 |       | zároveň technická norma ISO                                                    |
 +-------+--------------------------------------------------------------------------------+
 | ★★★★  | Data jsou opatřena metadaty a jednotlivé datové sady jsou jimi navzájem        |
 |       | provázány. Předpokládá se existence metadatového katalogu, založeného na       |
-|       | standardu OGC CSW, ve kterém lze data a služby       |
+|       | standardu OGC CSW, ve kterém lze data a služby                                 |
 |       | vyhledávat                                                                     |
 +-------+--------------------------------------------------------------------------------+
-| ★★★★★ | Jednotlivé soprvkyvky datové sadu avzájem provázány pomocí unikátních           |
+| ★★★★★ | Jednotlivé soprvkyvky datové sadu avzájem provázány pomocí unikátních          |
 |       | identifikátorů                                                                 |
 +-------+--------------------------------------------------------------------------------+
 
