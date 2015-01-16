@@ -710,7 +710,7 @@ podobě (GML, GeoJSON, ...). Binární formáty lze technicky vzato spravovat v
 prostředí Git také, potom ale nelze využít specializované verzovací nástroje.
 
 Poskytování změnových souborů (RÚIAN best practice)
---------------------------------------------------
+---------------------------------------------------
 
 ČÚZK zavedl pro distribuci dat Registru Územní Identifikace, Adres a Nemovitostí
 (RÚIAN) systém měsíční aktualizace stavových dat s denními dávkami změnových
@@ -984,8 +984,8 @@ schématu, ve kterém je nabízí např. mapy firmy Google, ale i projekt
 OpenStreetMap [ref52]_ (nebo služby ČÚZK) a pro souřadnicový systém S-JTSK
 (EPSG 5514) ve schématu používaném servery ČÚZK [ref53]_.
 
-OGC WMS,  WFS a WCS
-^^^^^^^^^^^^^^^^^^^
+OGC WMS, WFS a WCS
+^^^^^^^^^^^^^^^^^^
 
 Transformace mezi souřadnicovými systémy bývá u současných software poměrně
 rychlá. Služby by měly nabízet data především v původním
