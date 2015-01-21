@@ -734,6 +734,10 @@ strojově zpracovatelný zdroj. Tím by mohl být například zmiňovaný formá
 .. index::
     single: 3D data
 
+.. raw:: latex
+
+   \newpage
+
 *******
 3D Data
 *******

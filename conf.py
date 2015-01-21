@@ -214,7 +214,7 @@ latex_elements = {
 #    'fontenc' : '\\usepackage[T1]{fontenc}',
 #    'inputenc' : '\\usepackage[utf8x]{inputenc}',
     'releasename': '',
-    'date': 'listopad 2014',
+    'date': 'leden 2015',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples

@@ -73,7 +73,7 @@ standardními postupy (*fork*, *pull request*).
 | 2015-01-02 | 2.2.1      | Lucie Prunarová,              | Revize textu, doplnění zkratek. |
 |            |            | Jáchym Čepický                |                                 |
 +------------+------------+-------------------------------+---------------------------------+
-| 2015-01-21 | 2.2.1      | Lucie Prunarová,              | Začlenění připomínek k verzi    |
+| 2015-01-21 | 2.2.2      | Lucie Prunarová,              | Začlenění připomínek k verzi    |
 |            |            | Jáchym Čepický                | 2.2.1.                          |
 +------------+------------+-------------------------------+---------------------------------+
 
