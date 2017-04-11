@@ -42,3 +42,4 @@ Postupujte klasickým postupem viz https://help.github.com/articles/fork-a-repo/
 1. Vytvořte vlastní "fork" (tlačítko vpravo-nahoře na stránce)
 2. Proveďte úpravy
 3. Dejte nám vědět přes tzv. "pull request"
+
